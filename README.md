@@ -1,7 +1,1 @@
-si1
-===
-
-Repositorio referente a cadeira de SI-1 UFCG.
-
-___
-Rodrigo Felipe Medeiros Pinto
+Repositório usado na disciplina de Sistemas de Informação - I.
