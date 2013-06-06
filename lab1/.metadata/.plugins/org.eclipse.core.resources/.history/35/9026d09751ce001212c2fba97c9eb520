@@ -1,0 +1,14 @@
+<project name="lab1" basedir="." default="init">
+
+    <property name="classes" location="classes"/>
+
+    <target name="init">
+        <mkdir dir="classes" />
+    </target>
+
+    <target name="compila" depends="dir">
+        <javac srcdir="${basedir}"
+        destdir="${classes}" />
+    </target>
+
+</project>

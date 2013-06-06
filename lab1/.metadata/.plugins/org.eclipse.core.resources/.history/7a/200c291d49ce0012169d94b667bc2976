@@ -1,0 +1,20 @@
+package ufcg.si1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class Teste {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testXpto() {
+		String expected = "Bla";
+		assertEquals(expected, ImprimeAlgo.xpto());
+	}
+
+}

@@ -1,0 +1,23 @@
+<project name="lab1" basedir="." default="limpa">
+
+    <property name="classes" location="classes"/>
+
+    <target name="init">
+        <mkdir dir="classes" />
+    </target>
+    
+    <target name="limpa" depends="init">
+    </target>
+	
+	<target name="testa" depends="limpa">
+	</target>
+	
+    <target name="compila">
+        <javac srcdir="${basedir}"
+        destdir="${classes}" />
+    </target>
+    
+    <target name="executa" depends="compila">
+    </target>
+
+</project>

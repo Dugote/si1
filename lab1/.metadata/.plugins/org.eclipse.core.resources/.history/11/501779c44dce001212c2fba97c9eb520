@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="teste" basedir="." default="compilar">
+
+    <property name="classes" location="classes"/>
+
+    <target name="dir">
+        <mkdir dir="classes" />
+    </target>
+
+    <target name="compilar" depends="dir">
+        <javac srcdir="${basedir}"
+        destdir="${classes}" />
+    </target>
+
+</project>
